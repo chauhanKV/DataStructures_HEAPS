@@ -1,0 +1,6 @@
+D:\Study Stuff\Data Structure Exercises\Data Structures Part2\Heaps\bin\Debug\Heaps.exe.config
+D:\Study Stuff\Data Structure Exercises\Data Structures Part2\Heaps\bin\Debug\Heaps.exe
+D:\Study Stuff\Data Structure Exercises\Data Structures Part2\Heaps\bin\Debug\Heaps.pdb
+D:\Study Stuff\Data Structure Exercises\Data Structures Part2\Heaps\obj\Debug\Heaps.csprojAssemblyReference.cache
+D:\Study Stuff\Data Structure Exercises\Data Structures Part2\Heaps\obj\Debug\Heaps.exe
+D:\Study Stuff\Data Structure Exercises\Data Structures Part2\Heaps\obj\Debug\Heaps.pdb
