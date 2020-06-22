@@ -36,6 +36,34 @@ namespace Heaps
             var isMaxHeap = heapExercise.isMaxHeap(new int[6] { 8, 4, 5, 3, 10, 2 });
             Console.WriteLine("Is this is a Max Heap -> { 5, 3, 8, 4, 1, 2 } :" + isMaxHeap);
 
+
+            Console.WriteLine("-----------MinHeap----------");
+            MinHeap minHeap = new MinHeap();
+            minHeap.insert(30, "A");
+            minHeap.insert(3, "B");
+            minHeap.insert(60, "C");
+            minHeap.insert(1, "D");
+            minHeap.insert(10, "E");
+            //minHeap.insert(2, "F");
+
+            Console.WriteLine(minHeap.print());
+
+            Console.WriteLine("Removed value is from MinHeap is : " + minHeap.remove());
+
+            Console.WriteLine("-----------PriorityQueueWithMinHeap----------");
+            PriorityQueueWithMinHeap priorityQueueWithMinHeap = new PriorityQueueWithMinHeap();
+            priorityQueueWithMinHeap.add("Kavita", 5);
+            priorityQueueWithMinHeap.add("Brother", 3);
+            priorityQueueWithMinHeap.add("Mom", 1);
+            priorityQueueWithMinHeap.add("Dad", 2);
+            priorityQueueWithMinHeap.add("Brother", 3);
+
+            Console.WriteLine(priorityQueueWithMinHeap.print());
+
+            Console.WriteLine("Value removed from Priority Queue using MinHeap is : " + priorityQueueWithMinHeap.remove());
+
+
+
             Console.ReadLine();
 
         }

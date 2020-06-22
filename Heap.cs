@@ -50,8 +50,9 @@ namespace Heaps
             for (int i = (array.Length - 1); i >= 0; i--)
             {
                 array[i] = items.remove();
-                Console.WriteLine(array[i]);
             }
+
+            Console.WriteLine(String.Join(",", array.Select(a => a.ToString()).ToArray()));
         }
 
         public int max()
